@@ -2,19 +2,67 @@
 <html>
 <head>
   <title>Shami Ahmad - Portfolio</title>
+
+  <style>
+    body{
+      margin:0;
+      font-family:Arial;
+      background:linear-gradient(to right, #e0eafc, #cfdef3);
+      text-align:center;
+    }
+
+    .card{
+      background:white;
+      width:300px;
+      margin:60px auto;
+      padding:20px;
+      border-radius:15px;
+      box-shadow:0 5px 15px rgba(0,0,0,0.2);
+    }
+
+    img{
+      width:120px;
+      height:120px;
+      border-radius:50%;
+      object-fit:cover;
+      margin-top:10px;
+    }
+
+    h1{
+      margin:10px 0 5px 0;
+    }
+
+    .btn{
+      display:inline-block;
+      margin-top:10px;
+      padding:10px 15px;
+      background:#007bff;
+      color:white;
+      text-decoration:none;
+      border-radius:8px;
+    }
+
+    .btn:hover{
+      background:#0056b3;
+    }
+  </style>
+
 </head>
-<body style="text-align:center; font-family:Arial; background-color:#f2f2f2;">
 
-  <h1>Welcome to my profile</h1>
+<body>
 
- <img src="profile.jpg" style="border-radius:50%; width:150px; height:150px;"
+  <div class="card">
 
-  <h2>Shami Ahmad</h2>
+    <img src="myphoto.jpg" alt="Profile Photo">
 
-  <p>I am a beginner web developer 🚀</p>
+    <h1>Shami Ahmad</h1>
+    <p>Beginner Web Developer 🚀</p>
 
-  <h3>Skills</h3>
-  <p>HTML | Learning CSS | GitHub Pages</p>
+    <p><b>Skills:</b> HTML | CSS | Learning JavaScript</p>
+
+    <a class="btn" href="mailto:example@gmail.com">Contact Me</a>
+
+  </div>
 
 </body>
 </html>
